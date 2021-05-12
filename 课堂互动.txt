@@ -1,0 +1,7 @@
+课堂互动
+com.iflytek.studentclasswork
+
+调用com.iflytek.mdm*进行锁屏
+连续多次点击右上角wifi出现上传日志模态对话框，需要输入密码，目前未知该功能的作用
+使用tightvnc进行投屏
+每过一段时间向局域网服务器发送截图
