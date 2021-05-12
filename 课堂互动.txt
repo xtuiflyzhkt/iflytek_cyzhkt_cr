@@ -2,6 +2,7 @@
 com.iflytek.studentclasswork
 
 调用com.iflytek.mdm*进行锁屏
-连续多次点击右上角wifi出现上传日志模态对话框，需要输入密码，目前未知该功能的作用
+连续多次点击右上角wifi出现上传日志模态对话框，需要输入密码，密码为qaz123@.
+classes2.dex-smali/com/iflytek/comm/line/UploadLogDialog.smali line249:const-string v2, "qaz123@."
 使用tightvnc进行投屏
 每过一段时间向局域网服务器发送截图
