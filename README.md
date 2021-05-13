@@ -12,4 +12,4 @@ StudentLauncher(com.android.launcher3)<br>
 本机管理(com.iflytek.mdmadmin)<br>
 管控平台(com.iflytek.mdmservice)<br>
 *某些机型预安装:管控设置(com.iflytek.mdmsetting)
-注意:应用商店和管控平台会检查apk的名称，包名，签名，文件大小，改包名安装应用程序的方式是不可行的
+注意:应用商店和管控平台会检查apk的名称，包名，签名，文件大小，改包名或者使用中间人安装应用程序的方式是不可行的
