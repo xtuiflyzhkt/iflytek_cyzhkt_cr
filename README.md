@@ -13,4 +13,4 @@ StudentLauncher(com.android.launcher3)<br>
 管控平台(com.iflytek.mdmservice)<br>
 *某些机型预安装:管控设置(com.iflytek.mdmsetting)<br>
 注意:应用商店和管控平台会检查apk的名称，包名，签名，文件大小，改包名或者使用中间人安装应用程序的方式是不可行的(特殊情况除外)<br>
-建议:包名可以改成本机管理然后拖到hw_init/....../app/mdmadmin里面改名mdmadmin.apk，因为目前本机管理可以被替换
+建议:包名可以改成本机管理然后拖到hw_init/....../app/mdmadmin里面改名mdmadmin.apk，因为目前本机管理可以被替换，但是必须同时把管控平台(mdmservice)和应用商店(AppStore)替换成最新版本(可以在上方提供网站下载)
