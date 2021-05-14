@@ -1,0 +1,1 @@
+修改了/version/special_cust/<型号>/all/cn/xml/下的:APKInstallListEMUI5Release.txt(建议也看下DelAPKInstallListEMUI5Release.txt),unstall_apk.xml(奇怪为什么不是uninstall_apk.xml)
