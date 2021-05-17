@@ -1,7 +1,9 @@
 使用高通9008，MTK工程模式，麒麟工程模式解fblock(bootloader锁)进行刷机，没有bl锁忽略此行
 测试机已通过将测试点接地的方式进入麒麟工程模式并成功刷机
-测试机2已通过将测试点接地的方式进入人高通9008模式并成功刷机，目前正在处理
+测试机2已通过将测试点接地的方式进入高通9008模式并成功刷机，目前正在处理
 推荐在XDA论坛找方法
+建议全盘备份！！非常重要！！
+方法:将/dev/block/bootdevice/by-name/直接复制到其他位置，恢复备份使用dd命令
 懂点linux和android内核的可以像我们一样做双空间(但是肯定不完美)，没双空间的可以完整刷机之后安装我们提取的软件
 我们的双空间方案通过/data下目录改名实现，类似于备份和恢复备份，示例(建议写shell脚本文件):
 cp /data/app /data/app_tmp && cp /data/app_backup /data/app && cp /data/app_tmp /data/app_backup
@@ -16,6 +18,7 @@ AppStore,iFlyIME,iflylauncher3,iFlyLogin,mdmadmin,mdmservice,mdmsetting 共7个(
 twrp内刷镜像:(简体中文)高级-终端命令:
 dd if=<源文件名> of=<目标文件名>
 示例:类似于刷回原厂recovery(实际将erecovery复制到recovery):dd if=/dev/block/bootdevice/by-name/erecovery_ramdisk of=/dev/block/bootdevice/by-name/recovery_ramdisk
-可以使用twrp-安装刷入Magisk root设备
+可以使用twrp-安装刷入Magisk,SuperSu等 root设备
 twrp部分挂载点:
 data /data    system /system    SD卡 /external_sd    USB /usb-otg
+预计科大讯飞方面日后可能会做一些难以预料的更新(仓库可能已经受到科大讯飞方面监视，某些信息将不透露)，可能需要另外一些特殊方法解决
