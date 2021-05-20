@@ -1,0 +1,23 @@
+应用商店
+com.iflytek.mdmstore
+154560 4.5.6.xkt
+相对于管控平台，META-INF里面多了很多版本描述文件，都是1.0.0
+apk使用360加固
+
+权限及分析:
+调用华为MDM接口(疑似华为开发者认证文件:$APK/META-INF/HUAWEI.CER)
+com.huawei.permission.sec.MDM:MDM根权限
+com.huawei.permission.sec.MDM_DEVICE_MANAGER:设备管理器
+com.huawei.permission.sec.MDM_APP_MANAGEMENT:静默安装/卸载应用程序
+
+其他权限:
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION:使用系统下载器时不提示用户
+com.iflytek.mdmservice.provider.read:由com.iflytek.mdmservice提供的read方法
+com.iflytek.mdmservice.provider.readonly由com.iflytek.mdmservice提供的readonly方法
+android.permission.INTERNET:访问网络
+android.permission.BLUETOOTH_ADMIN:蓝牙管理
+android.permission.ACCESS_NETWORK_STATE:获取网络状态
+com.iflytek.mdm.permission.CALL_API:调用iflytek_mdm接口
+android.permission.VIBRATE:振动
+android.permission.ACCESS_WIFI_STATE:获取WIFI状态
+com.iflytek.mdmservice.provider.write:com.iflytek.mdmservice提供的write方法
