@@ -1,6 +1,0 @@
-登录使用HTTP POST
-除用户名密码外的提交参数:deviceType:设备型号 deviceRom:系统版本号 deviceId:序列号 androidId:未知 macAddr:mac地址
-（单独使用课堂互动登录只提交用户名密码）
-用户登录数据保存在
-/data/media/0/iflytek/pubfile/
-/data/data/com.iflytek.iflylogin/files/
