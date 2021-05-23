@@ -1,0 +1,6 @@
+以测试机为准
+修改了/version/special_cust/<型号>/all/cn/xml/下的:APKInstallListEMUI5Release.txt(建议也看下DelAPKInstallListEMUI5Release.txt),hw_defaults.xml,unstall_apk.xml
+修改了/version/xml/criticalpro.xml
+修改了/version/etc/publicity_all.xml
+增加了/data/hw_init/version/special_cust/<型号>/all/cn/app/下的AppStore,iFlyIME,iflylauncher3,iFlyLogin,mdmadmin,mdmservice
+修改了/version/special_cust/<型号>/all/cn/media/bootanimation.zip
