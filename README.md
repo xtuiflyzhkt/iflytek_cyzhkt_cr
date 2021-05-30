@@ -16,5 +16,6 @@ StudentLauncher(com.android.launcher3)<br>
 建议:包名前部加com.iflytek.并设法安装
 
 -HRCDGroup<br>
--测试机1:华为平板C5(BZT-W09) Kirin Hisilicon Kirin 659<br>
--测试机2:联想TAB 3 8(TB3-850F) MTK MT8161<br>
+-[2019/4/8]测试机1:华为平板C5(BZT-W09) Kirin Hisilicon Kirin 659<br>
+-[2021/3/25]测试机2:联想TAB 3 8(TB3-850F) MTK MT8161<br>
+-[2021/5/31]测试机3:华为平板T5(AGS2-W09) Kirin Hisilicon Kirin 659<br>
