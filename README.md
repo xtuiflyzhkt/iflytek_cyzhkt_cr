@@ -1,8 +1,8 @@
 # 科大讯飞-畅言智慧课堂-分析
 点view code查看内容<br>
-网站:http://119.188.248.166:81/cyapps<br>
+网站:http://cyzhkt.xzfg.net/cyapps<br>
 新的网站已实时同步更新<br>
-旧的网站:http://119.188.248.166:88/cyzhkt<br>
+旧的网站:http://down.xzfg.net:23456/cyzhkt<br>
 测试型号:华为<暂不公开><br>
 预安装6个应用程序包:<br>
 应用商店(com.iflytek.mdmstore)<br>
